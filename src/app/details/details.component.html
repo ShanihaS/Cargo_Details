@@ -1,0 +1,418 @@
+
+<div class="container-fluid mt-4 ps-5">
+  
+    <div class="row gx-3 align-items-stretch"> 
+    
+  
+        <div class="col-md-5 d-flex">
+            <div class="card">
+                <div class="card-body">
+                <div class="head">Sender Details</div>
+
+                    <div class="input-group">
+                        <label>ID Type</label>
+                        <select style="margin-right: 20px;margin-left: 13px; width: 160px;" >
+                            <option value="">Select ID Type </option>
+                            <option value="passport">Passport</option>
+                            <option value="License">License</option>
+                            <option value="anational_id">National ID</option>
+
+                        </select>
+                        <input type="text" placeholder="Enter ID Number" class="full-width">
+                        <button class="search-icon">🔍</button>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Sender Name</label>
+                        <input type="text" placeholder="" class="full-width">
+                        <button class="search-icon">🔍</button>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Mobile1</label>
+                        <div class="d-flex gap-1">
+                            <input type="text" value="+91" class="n-input" readonly>
+                            <input type="text" style="width: 120px;">
+                            <button class="search-icon">🔍</button>
+                            <label style="margin-left: 5px; margin-right: 3px;">WhatsApp</label>
+                            <input type="text" value="+91" class="n-input" readonly>
+                            <input type="text"  style="width: 120px;">
+                        </div>
+                    </div>    
+
+                   <div class="input-group">
+                        <label>Address</label>
+                        <input type="textarea" value=""  class="full-width2">
+                    </div>
+    
+                
+                    <div class="shipment-group">
+                        <div class="shipment-title">Shipment Details</div>
+                        <span class="line"></span>
+                        <div class="invoice-date">Invoice Date:</div>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Transit Type</label>
+                        <select style="width: 250px;">
+                            <option value="air">AIR</option>
+                            <option value="sea">SEA</option>
+                            <option value="road">ROAD</option>
+                        </select>
+                        <label>Service Type</label>
+                        <select style="width: 250px;margin-right: 9px;">
+                            <option value="">Select</option>
+                            <option value="express">Express</option>
+                            <option value="standard">Standard</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>To Country</label>
+                        <select style ="width: 250px;">
+                            <option value="india">INDIA</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                        </select>
+                        <label>Region</label>
+                        <select  style="width: 250px;margin-right: 9px;">
+                            <option value="">Select</option>
+                            <option value="north">North</option>
+                            <option value="south">South</option>
+                        </select>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-5 d-flex">
+            <div class="card">
+            
+                <div class="head">Receiver Details</div>
+                <div class="receiver-header">Sender based Receiver <span class="badge bg-danger">0</span></div>
+
+                <div class="card-body">
+                             
+                    <div class="input-group">
+                        <label>ID Type</label>
+                        
+                        <select style="margin-right: 20px;margin-left:13px; width:160px;">
+                            <input type="text" placeholder="Enter ID Number" class="full-width">
+                            <button class="search-icon">🔍</button>
+                        </select>    
+
+                    </div>
+
+                    <div class="input-group">
+                        <label>Receiver Name</label>
+                        <input type="text" placeholder="" class="full-width1">
+                        <button class="search-icon">🔍</button>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Address</label>
+                        <input type="textarea" value="" class="full-width2">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Mobile1</label>
+                        <input type="text" value="+91" class="n-input" readonly>
+                        <input type="text" placeholder="" style="width: 120px;">
+                        
+                        <label style="margin-left: 5px; margin-right: 3px;">Mobile 2</label>
+                        <input type="text" value="+91" class="n-input" readonly>
+                        <input type="text"  style="width: 120px;">
+                           
+                    </div>
+                
+
+                    <div class="input-group">
+                        <label>Pincode</label>
+                        <input type="text"/>
+                        <label>State</label>
+                        <select>
+                            <option value="tamilnadu">TamilNadu</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="karnataka">Karnataka</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>District</label>
+                        <select>
+                            <option value="madurai">Madurai</option>
+                            <option value="kaniyakumari">Kaniyakumari</option>
+                            <option value="salem">Salem</option>
+                        </select>
+                        <label>Taluk</label>
+                        <select>
+                            <option value="">Select</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>P.Office</label>
+                        <select>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                        <label>E mail</label>
+                        <input type="email">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-2 d-flex">
+            <div class="card">
+                <div class="head">Shipment Details</div>        
+                <div class="card-body">
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="billNo">Bill No</label>
+                            <input type="text" class="input-field" id="billNo">
+                        </div>
+        
+                        <div class="input-group">
+                            <label for="agent">Agent</label>
+                            <select class="input-field" id="agent">
+                                <option value="">Select</option>
+                                <option value="agent1">Agent 1</option>
+                                <option value="agent2">Agent 2</option>                         
+                            </select>
+                        </div>
+        
+                        <div class="input-group">
+                            <label for="refNo">Ref No</label>
+                            <input type="text" class="input-field" id="refNo">
+                        </div>
+        
+                        <div class="input-group">
+                            <label for="rate">Rate</label>
+                            <input type="text" class="input-field" id="rate" value="0.00">
+                        </div>
+        
+                        <div class="input-group">
+                            <label for="payment">Payment</label>
+                            <select class="input-field" id="payment">
+                                <option value="">Select</option>
+                                <option value="cash">CASH</option>
+                                <option value="credit">Credit</option>
+                            </select> 
+                        </div>
+        
+                        <div class="input-group">
+                            <button class="btn1" type="button">Save & Print</button>       
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        
+    </div>
+        
+
+
+    <div class="row gx-3 align-items-stretch">
+    
+        <div class="col-md-5 d-flex ">
+            <div class="card">
+                <div class="head">Item Details</div>
+                <div class="card-body">
+                    <div class="item-header">
+                       
+                        <div class="qty-btn">
+                            <span>Total Items: <span class="'total-items">0</span></span>
+                            <button class="btn-qty">-</button>
+                            <button class="total-items">1</button>
+                            <button class="btn-qty">+</button>
+                        </div>
+                    </div>
+                
+                    <div class="input-group">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>S.n</th>
+                                    <th>Ctn no</th>
+                                    <th>Item Name</th>
+                                    <th>Qty</th>
+                                    <th>Unit Price</th>
+                                    <th>Val Amt</th>
+                                    <th></th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <div class="tabledata">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>
+                                            <select>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                                <option value=""></option>
+                                            </select>
+                                        </td>
+                                        <td><input type="text" value="1" ></td>
+                                        <td><input type="number" value="1" ></td>
+                                        <td><input type="number" value="1" ></td>
+                                        <td><input type="number" value="1" ></td>
+                                    </tr>
+                                </div>
+                            </tbody>
+                        
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+
+        <div class="col-md-5 d-flex">
+            <div class="card p-3">
+                <div class="head">Carton details</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="field-group1">
+                                    <label>Carton No</label>
+                                    <select class="form-select form-select-sm w-50">
+                                        <option>Select</option>
+                                    </select>
+                                </div>
+                                <div class="field-group1">
+                                    <label>Carton Weight</label>
+                                    <input type="text" class="form-control form-control-sm w-50">
+                                </div>
+                        
+                                <div class="field-group1">
+                                    <label>Remarks</label>
+                                    <input type="text" class="form-control form-control-sm w-50">
+                                </div>
+                                
+                                <div class="input-group">
+                                    <button class="btn btn-success">Update</button>
+                                    <button class="btn btn-primary">Cancel</button>
+                                </div>
+                            
+                                <div class="field-group1">
+                                    <label>Packed By </label>
+                                    <input type="text" class="form-control form-control-sm w-50">
+                                </div>
+                                <div class="field-group1">
+                                    <label>Zone</label>
+                                
+                                    <select class="form-select form-select-sm w-50">
+                                        <option>Select</option>
+                                    </select>
+                                </div>
+                        
+                                <div class="field-group1">
+                                    <label>Remarks</label>
+                                    <input type="text" class="form-control form-control-sm w-50">
+                                </div>
+                            </div>      
+                        </div>
+    
+                   
+                        <div class="col-md-6">
+                            <div class="summary-box text-center">
+                                <strong>Total Weight:</strong> <span class="text-danger">0</span> &nbsp; 
+                                <strong>Total Carton:</strong> <span class="text-danger">0</span>
+                            </div>
+    
+                        
+                            <div class="table-responsive mt-3">
+                                <table class="table table-bordered">
+                                    <thead class="bg-dark text-white text-center">
+                                        <tr>
+                                            <th>Carton No</th>
+                                            <th>C. Weight</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr>
+                                            <td class="text-center"></td>
+                                            <td class="text-center"></td>
+                                            <td class="text-center">
+                                                <button class="btn btn-danger btn-sm"></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    
+   
+    
+        <div class="col-md-2 d-flex">
+            <div class="card tall-card flex-fill">
+        
+                <div class="head">Amount Details</div>
+                <div class="card-body mt-3">  
+                    <div class="field-group1">
+                        <label>Freight Charge</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Packing</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Bill Charge</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Extra</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Bill Amt</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Discount</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>VAT</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Total Amt</label>
+                        <input type="text" class="form-control text-danger" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Received</label>
+                        <input type="text" value="0.00" readonly>
+                    </div>
+                    <div class="field-group1">
+                        <label>Balance</label>
+                        <input type="text" class="form-control text-danger"  value="0.00" readonly>
+                    </div>
+                </div>   
+            </div>   
+               
+        </div>
+    </div>   
+</div>
+
+

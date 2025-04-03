@@ -1,0 +1,274 @@
+.card{
+    position:relative;
+    width:100%;
+    background-color: #fff;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+    
+}
+.card-body{
+    padding:20px;
+}
+
+.head{
+    position:absolute;
+    top:-12px;
+    left:15px;
+    background-color: #ff5a5f;
+    color: rgb(247, 246, 246);
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-size:10px;
+    display: inline;
+}
+.header-title{
+   
+    background-color: #ff5a5f;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-size:14px;
+    display: inline-block;   
+}
+.input-group {
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 10px;
+    gap:10px;
+    font-size:14px;
+}
+.input-group label { 
+        
+    font-weight: normal;
+}
+.shipment-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.line {
+    flex-grow: 1;
+    border-top: 1px solid #000;
+    margin: 0 10px;
+    align-self: center;
+}
+.invoice-date {
+    font-weight: bold; 
+    font-size: 12px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.shipment-title {
+    background-color: #ff6666; /* Maintain the red background */
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 0; 
+}
+ input,select{
+    flex:1;
+    width:50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    
+    
+}
+.search-icon {
+    background: #ff5a5f;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border:none;     
+}
+.m-input{
+    width:130px;
+    padding: 10px 20px;
+}
+.n-input{
+    width:130px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+.btn1, .update-btn, .cancel-btn,.sender-receiver-btn{
+    background:green ;
+    color:white;
+    padding:10px 20px;
+    border:none; 
+    font-weight: bold;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 10px;
+    width:100%;
+}
+textarea, input[type="textarea"]{
+    width:100%;
+    height:40px;
+    resize:none;
+    padding:5px 10px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 10px;
+}
+th,td{
+    border: 1px solid#ccc;
+    padding:10px;
+    text-align: center;
+    width:20%;  
+}
+.summary-box {
+    background-color: #fcfafa;
+    
+    font-size: 14px;   
+}
+th{
+    background: #2c3e50;
+    color: white;    
+}
+.btn-sm {
+    font-size: 12px;
+}
+.buttons{
+    display:flex;
+   
+}
+.update-btn{
+    background: rgb(6, 7, 6);
+    color:white;
+    border:none;
+    padding:10px 30px;
+    cursor:pointer;
+    margin:0px 30px;
+    border-radius: 10px;
+}
+.cancel-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px;
+    cursor:pointer;
+    margin:0px 30px;
+    border-radius: 10px;
+}
+.table-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-width:300px;
+    
+    padding:10px;
+}
+.carton-details {
+    text-align: left;
+    margin-left: 10px; /* Adjust as needed */
+    margin-top: 5px;  /* Adjust as needed */
+    font-weight: bold;
+    font-size: 18px;
+    padding:10px;
+}
+.form-group  {
+    font-weight: bold;
+    margin-bottom: 10px;
+    gap:5px;
+}
+.text-danger {
+    font-weight: bold;
+    font-size: 16px;
+}
+.item-header {
+    background-color: white;
+    color: rgb(14, 3, 3);
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-size:14px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.total-items {
+    display: flex;
+    align-items: right;
+    gap: 5px; 
+}
+.qty-btn {
+    display: flex;
+    align-items: center;
+}
+.qty-input, .small-input {
+    width: 80px;
+    text-align: center;
+}
+.btn-qty {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid rgb(3, 3, 3);
+    background-color: rgb(114, 110, 110);
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.amount-details {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.row input {
+    text-align: right;
+    border: auto;
+    border-radius:5px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    width: 60px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 5px;
+}
+.field-group1{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.field-group1 label{
+    width: 110px;
+    font-weight: normal;
+    color:#333;
+}
+.receiver-header {
+    background-color: #0c9579;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: -12px;
+    right: 20px;
+}
+
